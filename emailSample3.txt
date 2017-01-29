@@ -1,0 +1,3 @@
+I have to ask why are you literally using a random number generator to set the number of VFs, you want it to have? 
+Also for that matter, It’s checking subnetPolicy Persistence, why are you changing the numVFs?
+And this test gains nothing but time and potential confounding factors for later tests by changing the subnet policy on every port on the system and never changing it back while also turning every dedicated port on the system into VF.
